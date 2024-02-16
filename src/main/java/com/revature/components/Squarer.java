@@ -4,6 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
+ *  For the purpose of this application, the Squarer class is dependent on the functionality of the Multiplier class,
+ * making this a dependency of Multiplier.
+ *
  * The current functionality of the Application requires the "Squarer" class to be retrieved from the Application
  * Context - which you can think of as the current pool of usable Spring Beans.
  */
