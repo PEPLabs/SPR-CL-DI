@@ -5,9 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * For the purpose of this application, the Squarer class is dependent on the functionality of the Multiplier class,
- * making this a dependency of Multiplier.
- *
+ ** For the purpose of this application, the Multiplier class is dependent on the functionality of the Adder class,
+ * making this a dependency of Adder.
+ 
  * This class is a potential bean that can be wired into another component
  * via dependency injection. A Bean is an object that is instantiated by Spring, rather than by the developer.
  * Dependency injection is the process of Spring inserting the instantiated Bean into another class.
