@@ -4,7 +4,8 @@ import org.springframework.stereotype.Component;
 
 /**
  * For the purpose of this application, the multiplier class is dependent on the functionality of the Adder class,
- * making this a dependency of Multiplier.
+ * making the Multiplier class a dependency of the Adder class.
+ * 
  *
  * This class is a potential bean that can be wired into another component
  * via dependency injection. A Bean is an object that is instantiated by Spring, rather than by the developer.
